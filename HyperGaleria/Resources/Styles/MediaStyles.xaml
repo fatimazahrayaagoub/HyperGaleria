@@ -1,0 +1,11 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Style x:Key="MediaViewerStyle" TargetType="{x:Type MediaElement}">
+        <Setter Property="LoadedBehavior" Value="Manual"/>
+        <Setter Property="UnloadedBehavior" Value="Stop"/>
+        <Setter Property="Stretch" Value="Uniform"/>
+        <Setter Property="Margin" Value="10"/>
+    </Style>
+
+</ResourceDictionary>
